@@ -5,25 +5,34 @@
 }
 
 body{
-   background-color: aquamarine;
+   background-color: #F3F5FC;
+}
+header{
+   width: 100%;
+   padding: 1rem;
+}
+
+h1{
+   display: inline-block;
+   color: #0A3871;
+   vertical-align: top;  
+   margin: 0 auto;
 }
 
 .hombre-ahorcado{
    width: 100vw;
    text-align: center;
-   /* height: 40vh; */
-   border: 1px solid #777;
-   background-color: aliceblue;
-   margin-top: 6.75rem;
-   margin-bottom: 6rem;
-}
-.ahorcado{
+   height: 40vh;
    max-width: 100%;
    max-height: 100%;
+   background-color: #F3F5FC;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+}
+.ahorcado{
    width: 16.75rem;
    height: 16.75rem;
-   border: 1px solid #777;
-   background-color: antiquewhite;
+   background-color: #F3F5FC;
    display: inline-block;
 }
 .ahorcado::after{
@@ -34,13 +43,49 @@ body{
 }
 .errado{
    text-align: center;
+   margin-top: 1rem;
 }
+
 .letra{
    display: inline-block;
+   vertical-align: middle;
+   text-align: center;
+   
+}
+
+.l-correcta{
    width: 4.5rem;
    height: 4.5rem;
-   vertical-align: top;
-   text-align: center;
    font-size: 1.8rem;
    color: #002462;
+   border-bottom: #002462 solid 2px;
+   margin-left: 0.4rem;
+   line-height: 4.5rem;
 }
+
+.l-error{
+   color: #242d34;
+   margin-left: 1rem;
+}
+
+.botones{
+   text-align: center;
+   margin-top: 4rem;
+   margin-bottom: 1rem;
+   cursor: pointer;
+}
+
+[type="button"]{
+   padding: 1rem;
+   width: 15rem;
+   border-radius: 1rem;
+   border: 1px solid #0a3871;
+   color: #0a3871;
+   background-color: inherit;
+}
+.btn-azul{
+   background-color: #0a3871;
+   color: #f4f4f4;
+   border: solid 1px #091f3a;
+}
+
